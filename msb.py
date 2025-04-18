@@ -110,10 +110,6 @@ def brute_smtp():
                 print(f"of the connection, please retry later: {e}")
                 exit()
 
-            #except smtplib.SMTPAuthenticationError as e: # retry a new authentification
-            #    print(e)
-            #    continue
-
             except (smtplib.SMTPResponseException, smtplib.SMTPAuthenticationError) as e:
                 login = str(e)
                 print(login)
@@ -126,10 +122,10 @@ def brute_smtp():
                 else:
                     continue # retry a new authentification
 
-            #except KeyboardInterrupt:
-            #    target.quit()
-            #    print("\nAbort.")
-            #    exit()
+            except KeyboardInterrupt:
+                target.quit()
+                print("\nAbort.")
+                exit()
 
             except Exception as e:
                 target.quit()
