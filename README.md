@@ -1,5 +1,5 @@
 # Description
-Python bruteforcer on multiple services
+Python bruteforcer on multiple services. Note : even if the tested SMTP password is correct, you may receive an error saying the credentials are invalid and denied.
 
 # How to use
 
