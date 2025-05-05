@@ -155,7 +155,6 @@ choice = input(white + "Enter service to bruteforce [ssh/SMTP]: ")
 if choice == "ssh":
     brute_ssh()
     
-
 elif choice == "SMTP":
     brute_smtp()
 
