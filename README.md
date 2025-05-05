@@ -5,7 +5,7 @@ Note : even if the tested SMTP password is correct, you may receive an error say
 
 ## How to use
 
-Go in the repository folder and execute `python3 msb.py`, then follow the instructions
+Go into the repository folder and execute `python3 msb.py`, then follow the instructions
 
 ## Requirements
 
